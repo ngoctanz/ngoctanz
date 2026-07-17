@@ -53,33 +53,13 @@ A connected view of the technologies I use to move an idea from interface to API
 </div>
 
 
-## Specialized Working Modules
+## What I Build
 
-Focused areas where I turn product requirements into clear, secure, and maintainable systems.
+- 🧩 **Product Systems** — Business dashboards, internal tools, storefronts, checkout, and payment flows.
+- 🛡️ **Secure Engineering** — Authentication, authorization, validation, and protected data access.
+- ⚙️ **Reliable Delivery** — Scalable APIs, performance optimization, monitoring, and graceful error handling.
 
-### 01 — Business Tools
-
-Internal dashboards, management platforms, and workflow systems that simplify daily operations and make important data easier to use.
-
-`Dashboards` · `Admin Panels` · `Reporting` · `Workflow Automation`
-
-### 02 — E-Commerce Systems
-
-Reliable storefront and order flows covering product discovery, carts, checkout, payment integration, and post-purchase processing.
-
-`Storefronts` · `Checkout` · `Payments` · `Order Processing`
-
-### 03 — Application Security
-
-Secure access and protected data flows built with explicit authentication, authorization, validation, and permission boundaries.
-
-`OAuth` · `JWT` · `RBAC` · `Data Validation`
-
-### 04 — Performance & Reliability
-
-Fast and resilient applications supported by efficient APIs, optimized data access, monitoring, and graceful failure handling.
-
-`API Performance` · `Caching` · `Monitoring` · `Error Handling`
+`Business Apps` · `E-Commerce` · `Security` · `Performance`
 
 
 ## The Infinite Workflow Loop
