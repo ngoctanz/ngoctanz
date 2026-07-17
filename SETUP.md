@@ -1,27 +1,19 @@
 # Setup
 
-1. Upload all files to the public GitHub profile repository named `ngoctanz`.
-2. Keep the folder structure unchanged.
-3. Open **Actions**.
-4. Run **Generate 3D contribution calendar** once.
-5. Refresh the profile after the workflow finishes and commits the SVG.
+Upload every file to the public profile repository named `ngoctanz`.
 
-## Structure
+Then run:
 
 ```text
-ngoctanz/
-├── README.md
-├── assets/
-│   ├── hero.svg
-│   └── signal.svg
-└── .github/
-    └── workflows/
-        └── profile-3d.yml
+Actions
+→ Generate 3D contribution calendar
+→ Run workflow
 ```
 
-## Changes in V2
+## V3 changes
 
-- Removed the random quote and Engineering Notes section.
-- Removed the two broken `github-readme-stats` images.
-- Replaced them with GitHub Profile Summary Cards.
-- Kept the activity graph and local 3D contribution calendar.
+- Removed all GitHub Pulse/statistics cards.
+- Removed third-party language and profile metric images.
+- Added a custom architecture map.
+- Added a custom animated development workflow.
+- Kept only one data-driven visual: the 3D contribution calendar generated from your real GitHub activity.

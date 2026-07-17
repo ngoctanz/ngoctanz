@@ -107,6 +107,20 @@ mindset: learn → build → ship
 
 ---
 
+## How I Build
+
+<div align="center">
+  <img src="./assets/architecture.svg" width="98%" alt="Web application architecture map" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/workflow.svg" width="98%" alt="Development workflow" />
+</div>
+
+---
+
 ## What I Build
 
 <table>
@@ -146,25 +160,6 @@ Large-data processing, optimized queries, concurrent updates, fallback handling,
 
 ---
 
-## GitHub Pulse
-
-<div align="center">
-
-<img width="97%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ngoctanz&theme=github_dark" alt="GitHub profile details" />
-
-<br/>
-
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ngoctanz&theme=github_dark" alt="Repositories per language" />
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ngoctanz&theme=github_dark" alt="Most committed languages" />
-
-<br/>
-
-<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=ngoctanz&bg_color=0D1117&color=E6EDF3&line=7257FA&point=00D9FF&area=true&hide_border=true" alt="GitHub activity graph" />
-
-</div>
-
----
-
 ## Contribution City
 
 <div align="center">
@@ -173,7 +168,7 @@ Large-data processing, optimized queries, concurrent updates, fallback handling,
 
 </div>
 
-> Generated automatically by GitHub Actions. Run the included workflow once after uploading the files.
+> This visual is generated from your real GitHub contribution history by the included workflow.
 
 ---
 
@@ -186,6 +181,6 @@ Large-data processing, optimized queries, concurrent updates, fallback handling,
 
 <br/><br/>
 
-<sub>Designed as a living developer profile — not just a list of technologies.</sub>
+<sub>Designed as a living developer profile — not a collection of vanity metrics.</sub>
 
 </div>
