@@ -150,12 +150,16 @@ Large-data processing, optimized queries, concurrent updates, fallback handling,
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=ngoctanz&show_icons=true&hide_border=true&bg_color=0D1117&title_color=7EE7F2&icon_color=EA3A82&text_color=E6EDF3&ring_color=7257FA" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ngoctanz&layout=compact&hide_border=true&bg_color=0D1117&title_color=7EE7F2&text_color=E6EDF3&langs_count=8" />
+<img width="97%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ngoctanz&theme=github_dark" alt="GitHub profile details" />
 
 <br/>
 
-<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=ngoctanz&bg_color=0D1117&color=E6EDF3&line=7257FA&point=00D9FF&area=true&hide_border=true" />
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ngoctanz&theme=github_dark" alt="Repositories per language" />
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ngoctanz&theme=github_dark" alt="Most committed languages" />
+
+<br/>
+
+<img width="97%" src="https://github-readme-activity-graph.vercel.app/graph?username=ngoctanz&bg_color=0D1117&color=E6EDF3&line=7257FA&point=00D9FF&area=true&hide_border=true" alt="GitHub activity graph" />
 
 </div>
 
@@ -170,34 +174,6 @@ Large-data processing, optimized queries, concurrent updates, fallback handling,
 </div>
 
 > Generated automatically by GitHub Actions. Run the included workflow once after uploading the files.
-
----
-
-## A Little More Than Code
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-### Engineering Notes
-
-- I prefer simple solutions before complex architecture.
-- I care about what happens when an API fails, traffic grows, or data becomes inconsistent.
-- I like interfaces that look clean without making users think.
-- I treat security and error handling as product features.
-
-</td>
-<td width="42%" valign="top">
-
-### Random Dev Quote
-
-<div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight" width="100%" />
-</div>
-
-</td>
-</tr>
-</table>
 
 ---
 

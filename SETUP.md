@@ -1,10 +1,10 @@
 # Setup
 
-1. Create or open the public profile repository named `ngoctanz`.
-2. Upload everything from this package without changing the folder structure.
+1. Upload all files to the public GitHub profile repository named `ngoctanz`.
+2. Keep the folder structure unchanged.
 3. Open **Actions**.
-4. Run **Generate 3D contribution calendar** manually once.
-5. Refresh the profile after the workflow commits the generated SVG.
+4. Run **Generate 3D contribution calendar** once.
+5. Refresh the profile after the workflow finishes and commits the SVG.
 
 ## Structure
 
@@ -19,8 +19,9 @@ ngoctanz/
         └── profile-3d.yml
 ```
 
-## Notes
+## Changes in V2
 
-- GitHub removes much inline CSS from README HTML. This design uses SVG assets, tables, badges, and Markdown because these render more reliably.
-- The 3D contribution image is generated inside your own repository, so it is more reliable than embedding a separate snake branch.
-- Third-party GitHub statistics cards can occasionally be unavailable due to rate limits.
+- Removed the random quote and Engineering Notes section.
+- Removed the two broken `github-readme-stats` images.
+- Replaced them with GitHub Profile Summary Cards.
+- Kept the activity graph and local 3D contribution calendar.
