@@ -1,13 +1,14 @@
-ngoctanz/
+ngoctanz-github-profile-final/
 ├── README.md
+├── STRUCTURE.txt
 ├── SETUP.md
 ├── MOBILE-FIX.md
 ├── assets/
 │   ├── signature-animated.svg
+│   ├── developer-card.png
 │   ├── neural-stack-animated.svg
 │   ├── workflow-loop-animated.svg
-│   ├── flow-divider.svg
-│   └── source PNG files
+│   └── flow-divider.svg
 └── .github/
     └── workflows/
         └── snake.yml

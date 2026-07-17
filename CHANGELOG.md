@@ -1,3 +1,9 @@
+# Latest update
+
+- Rebuilt **Engineering Principles** as a compact definition list.
+- Added clear icons and visual hierarchy between principle names and explanations.
+- Shortened every description for cleaner mobile rendering.
+
 # Compact Focus Update
 
 The former **Specialized Working Modules** section has been replaced with a compact, mobile-friendly **What I Build** section.
