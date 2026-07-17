@@ -1,0 +1,149 @@
+<svg width="1600" height="430" viewBox="0 0 1600 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="430">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset=".55" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="150" y1="0" x2="1050" y2="0">
+      <stop offset="0%" stop-color="#0F172A">
+        <animate attributeName="stop-color"
+                 values="#0F172A;#2563EB;#7C3AED;#0F172A"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#2563EB">
+        <animate attributeName="stop-color"
+                 values="#2563EB;#7C3AED;#0EA5E9;#2563EB"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7C3AED">
+        <animate attributeName="stop-color"
+                 values="#7C3AED;#0EA5E9;#2563EB;#7C3AED"
+                 dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="waveGradient" x1="0" y1="0" x2="1600" y2="0">
+      <stop stop-color="#2563EB" stop-opacity=".10"/>
+      <stop offset=".45" stop-color="#60A5FA" stop-opacity=".40"/>
+      <stop offset=".75" stop-color="#A78BFA" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset=".35" stop-color="#60A5FA" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="12" stdDeviation="20"
+                    flood-color="#64748B" flood-opacity=".14"/>
+    </filter>
+
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.8" fill="#94A3B8" fill-opacity=".18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="430" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1598" height="428" rx="27"
+        fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <rect x="1320" y="42" width="220" height="100" fill="url(#dots)" opacity=".55"/>
+
+  <g opacity=".55">
+    <circle cx="1385" cy="95" r="82" fill="none" stroke="#C7D2FE" stroke-width="22">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="0 1385 95" to="360 1385 95"
+                        dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1510" cy="310" r="42" fill="none" stroke="#DBEAFE" stroke-width="14">
+      <animateTransform attributeName="transform" type="rotate"
+                        from="360 1510 310" to="0 1510 310"
+                        dur="18s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <path d="M0 345 C260 270 420 390 690 315 C930 248 1160 362 1600 210"
+        fill="none" stroke="url(#waveGradient)" stroke-width="58" stroke-linecap="round"
+        opacity=".42">
+    <animate attributeName="d"
+      values="
+      M0 345 C260 270 420 390 690 315 C930 248 1160 362 1600 210;
+      M0 325 C250 395 470 260 720 338 C980 420 1200 238 1600 245;
+      M0 345 C260 270 420 390 690 315 C930 248 1160 362 1600 210"
+      dur="12s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0 375 C280 300 510 430 760 338 C1040 230 1260 355 1600 265"
+        fill="none" stroke="#FFFFFF" stroke-opacity=".78" stroke-width="4">
+    <animate attributeName="stroke-dasharray"
+             values="0 1800;1800 0;0 1800"
+             dur="10s" repeatCount="indefinite"/>
+  </path>
+
+  <g transform="translate(115 82)">
+    <rect x="0" y="0" width="300" height="48" rx="14"
+          fill="#FFFFFF" stroke="#BFDBFE" filter="url(#shadow)"/>
+    <text x="150" y="31" text-anchor="middle"
+          font-family="Inter, Arial, sans-serif"
+          font-size="19" font-weight="700" letter-spacing="6"
+          fill="#2563EB">WEB DEVELOPER</text>
+
+    <text x="0" y="156"
+          font-family="Inter, Arial, sans-serif"
+          font-size="74" font-weight="800" letter-spacing="-2"
+          fill="url(#nameGradient)">LE NGOC TAN</text>
+
+    <text x="0" y="222"
+          font-family="Inter, Arial, sans-serif"
+          font-size="26" fill="#475569">
+      Building modern web applications with
+      <tspan fill="#2563EB" font-weight="700"> clarity</tspan>,
+      <tspan fill="#6366F1" font-weight="700"> performance</tspan>,
+      and
+      <tspan fill="#7C3AED" font-weight="700"> reliability</tspan>.
+    </text>
+  </g>
+
+  <g transform="translate(1140 110)" filter="url(#shadow)">
+    <rect width="300" height="205" rx="24"
+          fill="#FFFFFF" fill-opacity=".72"
+          stroke="#E2E8F0"/>
+
+    <rect x="30" y="35" width="240" height="16" rx="8" fill="#E2E8F0"/>
+    <rect x="30" y="72" width="170" height="12" rx="6" fill="#DBEAFE"/>
+    <rect x="30" y="102" width="210" height="12" rx="6" fill="#EDE9FE"/>
+    <rect x="30" y="132" width="130" height="12" rx="6" fill="#DBEAFE"/>
+
+    <circle cx="250" cy="164" r="26" fill="url(#glow)" filter="url(#softGlow)">
+      <animate attributeName="cx" values="250;210;250" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="164;142;164" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="#60A5FA">
+    <circle cx="1050" cy="74" r="3">
+      <animate attributeName="cy" values="74;52;74" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;1;.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1090" cy="315" r="4">
+      <animate attributeName="cy" values="315;280;315" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.2;1" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1475" cy="170" r="3">
+      <animate attributeName="cx" values="1475;1450;1475" dur="4.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;1;.25" dur="4.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
