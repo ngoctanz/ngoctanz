@@ -1,0 +1,13 @@
+ngoctanz/
+├── README.md
+├── SETUP.md
+├── assets/
+│   ├── signature-animated.svg
+│   ├── neural-stack-animated.svg
+│   ├── modular_focus.png
+│   ├── workflow-loop-animated.svg
+│   ├── flow-divider.svg
+│   └── source PNG files
+└── .github/
+    └── workflows/
+        └── snake.yml
