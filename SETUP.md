@@ -1,29 +1,29 @@
-# Setup
+# GitHub Profile README Setup
 
-Upload this structure to the public GitHub profile repository named:
+Upload these files to the public repository named exactly:
 
 ```text
 ngoctanz
 ```
 
+Keep this structure:
+
 ```text
 ngoctanz/
 ├── README.md
 └── assets/
-    ├── hero-base.png
-    └── hero-motion.svg
+    ├── hero.svg
+    └── development-workflow.png
 ```
 
-The animated hero is fully self-contained inside `hero-motion.svg`.
+No GitHub Actions or generated statistics are required.
 
-Included effects:
-- slow breathing / parallax motion
-- animated gradient border
-- moving light sweep
-- scanline beam
-- orbit rings around the code symbol
-- floating glow particles
-- animated atmospheric light
-- subtle waveform motion
+## Design choices
 
-No GitHub Actions are required.
+- One restrained hero banner
+- One meaningful workflow graphic
+- No fake metrics
+- No broken stats cards
+- No contribution animation
+- Minimal color palette
+- Wide spacing and short sections
