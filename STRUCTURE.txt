@@ -1,0 +1,7 @@
+ngoctanz/
+├── README.md
+└── assets/
+    ├── signature.png
+    ├── neural_stack.png
+    ├── modular_focus.png
+    └── workflow_loop.png
