@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&duration=2600&pause=850&color=E2E8F0&center=true&vCenter=true&width=900&lines=LE+NGOC+TAN+%E2%80%94+WEB+DEVELOPER;Building+scalable+digital+products;React+%E2%80%A2+NestJS+%E2%80%A2+Next.js" alt="Animated introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&duration=2600&pause=850&color=E2E8F0&center=true&vCenter=true&width=900&lines=LE+NGOC+TAN+%E2%80%94+WEB+DEVELOPER;Building+scalable+digital+products;React+%E2%80%A2+NodeJS+%E2%80%A2+Next.js" alt="Animated introduction" />
 
 <br/>
 
