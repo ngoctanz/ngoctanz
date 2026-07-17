@@ -1,6 +1,6 @@
-# GitHub Profile README Setup
+# Setup
 
-Upload these files to the public repository named exactly:
+Upload the files to your public GitHub profile repository named:
 
 ```text
 ngoctanz
@@ -12,18 +12,8 @@ Keep this structure:
 ngoctanz/
 ├── README.md
 └── assets/
-    ├── hero.svg
-    └── development-workflow.png
+    ├── hero-animated.svg
+    └── workflow.png
 ```
 
-No GitHub Actions or generated statistics are required.
-
-## Design choices
-
-- One restrained hero banner
-- One meaningful workflow graphic
-- No fake metrics
-- No broken stats cards
-- No contribution animation
-- Minimal color palette
-- Wide spacing and short sections
+The hero animation is implemented with SVG and does not need GitHub Actions.
