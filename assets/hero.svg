@@ -1,0 +1,35 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300">
+      <stop stop-color="#0B111B"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="100" y1="0" x2="1080" y2="0">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.55" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#334155"/>
+
+  <g transform="translate(72 62)">
+    <text x="0" y="0" fill="#94A3B8" font-family="monospace" font-size="16">web.developer / profile</text>
+    <text x="0" y="68" fill="#F8FAFC" font-family="sans-serif" font-weight="700" font-size="54">LE NGOC TAN</text>
+    <rect x="0" y="91" width="335" height="4" rx="2" fill="url(#accent)"/>
+    <text x="0" y="140" fill="#CBD5E1" font-family="sans-serif" font-size="23">Modern interfaces · Reliable applications · Real products</text>
+  </g>
+
+  <g transform="translate(865 75)">
+    <rect width="250" height="150" rx="18" fill="#0F172A" stroke="#334155"/>
+    <text x="24" y="38" fill="#7DD3FC" font-family="monospace" font-size="15">$ current_focus</text>
+    <text x="24" y="76" fill="#E2E8F0" font-family="monospace" font-size="15">React / Next.js</text>
+    <text x="24" y="102" fill="#E2E8F0" font-family="monospace" font-size="15">Node.js / NestJS</text>
+    <text x="24" y="128" fill="#94A3B8" font-family="monospace" font-size="14">build → ship → improve</text>
+  </g>
+</svg>
