@@ -16,6 +16,7 @@
 
 <img src="./assets/flow-divider.svg" width="100%" alt="Section divider" />
 
+
 ## About Me
 
 I turn ideas into scalable web applications with clean interfaces, reliable systems, and maintainable architecture. I focus on products that remain secure, understandable, and easy to improve as they grow.
@@ -36,7 +37,6 @@ const developer = {
 };
 ```
 
-<img src="./assets/flow-divider.svg" width="100%" alt="Section divider" />
 
 ## The Neural Stack Map
 
@@ -52,7 +52,6 @@ A connected view of the technologies I use to move an idea from interface to API
 
 </div>
 
-<img src="./assets/flow-divider.svg" width="100%" alt="Section divider" />
 
 ## Specialized Working Modules
 
@@ -71,7 +70,6 @@ I enjoy working on systems where product experience and engineering quality matt
 </tr>
 </table>
 
-<img src="./assets/flow-divider.svg" width="100%" alt="Section divider" />
 
 ## The Infinite Workflow Loop
 
@@ -79,7 +77,6 @@ Understand the problem, design deliberately, build clearly, validate carefully, 
 
 <img src="./assets/workflow-loop-animated.svg" width="100%" alt="Animated infinite workflow loop: Idea, Plan, Build, Test, Deploy and Improve" />
 
-<img src="./assets/flow-divider.svg" width="100%" alt="Section divider" />
 
 ## Engineering Principles
 
@@ -93,6 +90,7 @@ Understand the problem, design deliberately, build clearly, validate carefully, 
 <td width="50%" valign="top"><h3>Maintainable Code</h3>Prefer readable solutions over clever complexity. Simple code is easier to improve and scale.</td>
 </tr>
 </table>
+
 
 <img src="./assets/flow-divider.svg" width="100%" alt="Section divider" />
 
