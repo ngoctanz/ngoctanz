@@ -74,16 +74,16 @@ Understand the problem, design deliberately, build clearly, validate carefully, 
 <sub>Four constraints behind how I design, ship, and improve software.</sub>
 
 <dl>
-  <dt>🧭 <strong>Clear by design</strong></dt>
+  <dt><strong>Clear by design</strong></dt>
   <dd>Interfaces should explain the next action without extra instructions.</dd>
 
-  <dt>🛡️ <strong>Secure by default</strong></dt>
+  <dt><strong>Secure by default</strong></dt>
   <dd>Validate input, authorize access, and protect data at every boundary.</dd>
 
-  <dt>🧯 <strong>Fail predictably</strong></dt>
+  <dt><strong>Fail predictably</strong></dt>
   <dd>Expect external failures, expose useful errors, and recover safely.</dd>
 
-  <dt>🧱 <strong>Simple enough to grow</strong></dt>
+  <dt><strong>Simple enough to grow</strong></dt>
   <dd>Prefer readable code and architecture that remain easy to change.</dd>
 </dl>
 
